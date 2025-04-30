@@ -1,0 +1,50 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.tabcontainer{
+  font-size: large;
+  border: 1px solid black;
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+
+}
+.tabs{
+  display: flex;
+}
+.tab{
+  border : 1px solid black;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.formcomponent{
+  margin-top: 20px;
+  padding: 10px;
+  
+}
+.buttons {
+  margin-top: 100px;
+}
+.buttons > button {
+  padding: 10px;
+  background-color: rgb(85, 84, 84);
+  color:white;
+  border-radius: 8px;
+  border:none;
+  outline: none;
+  cursor : pointer;
+  margin-right: 4px;
+}
+.error {
+  color : red;
+  font-size: smaller;
+}
