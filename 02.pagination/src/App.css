@@ -4,8 +4,56 @@ min-height: 100vh;
 }
 .header {
   height: 10vh;
-  border : 1px solid red;
+  /* border : 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid green; */
+}
+.pagi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+  padding: 10px;
+  outline: none;
+  border : none;
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* max-width: 90vw; */
+  /* border : 1px solid rgb(4, 145, 232); */
+  gap : 12px;
+  padding-top: 10px;
+}
+.card{
+  width : 300px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border : 1px solid black;
+}
+
+.image img {
+  width: 250px;
+  height: 220px;
+}
+
