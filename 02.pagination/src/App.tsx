@@ -58,11 +58,11 @@ function App() {
       </div>
       <div className="container">
 
-        {/* <div className="pagi">
+        <div className="pagi" style={{marginBottom : "18px"}}>
           <button onClick={handlePrev} disabled={page === 1}>Prev</button>
           <p>Page <b>{page}</b> of <b>{totalPage}</b></p>
           <button onClick={handleNext} disabled={page === totalPage}>Next</button>
-        </div> */}
+        </div>
 
         <div className="pagi">
           {[...Array(totalPage)].map((_, index) => (
