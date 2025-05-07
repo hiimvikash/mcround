@@ -1,0 +1,60 @@
+.main{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  min-width : 90vw;
+  min-height: 90vh;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  /* border : 1px solid red; */
+}
+.accordion-container{
+  /* border : 1px solid black; */
+  width : 80%;
+  display: flex;
+  justify-content: center;
+  /* display: flex; */
+  /* text-align: center; */
+}
+.singleaccord {
+  background-color: rgb(245, 238, 238);
+  margin-bottom: 15px;
+  width: 50vw;
+  font-size: large;
+  padding: 10px;
+  border-radius: 20px;
+}
+.detail{
+  border-radius: 10px;
+  /* background-color: blanchedalmond; */
+  border-top : 1px solid black;
+  padding: 15px; 
+}
+.text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+button{
+  height:fit-content;
+  border-radius: 5px;
+  padding: 4px 8px;
+  outline: none;
+  border-width: 1px;
+  cursor: pointer;
+  box-shadow:  3px 3px 20px rgb(142, 141, 141) ;
+  background-color: rgb(232, 220, 220)
+}
+
+
+
