@@ -125,6 +125,20 @@ Page 1 of 10
 
 > If the crew (your fetch + local variable) changes something without telling the actors (React), the audience never sees it.
 
+## So Now how to choose variable state/regular ?
+- use state variable when that variable value will be displayed in UI or when the value of that variable is coming from API call.
+- use regular variable when it's purely calculated value.
+
+## ✅ Better way to say it:
+Use useState when:
+
+- The variable's value affects what’s rendered in the UI and
+- You need React to re-render the component when that value changes (e.g., user input, API data, toggles).
+
+Use a regular variable when:
+- It's a temporary or calculated value within the render, and
+- You don't need React to track or respond to its changes.
+
 
 
 
