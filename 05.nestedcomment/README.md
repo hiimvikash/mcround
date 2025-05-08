@@ -1,3 +1,3 @@
 # Comment Structure
 
-![image](https://github.com/user-attachments/assets/bcc9933a-1fc0-48a9-9e2d-0a05798aba17)
+![image](https://github.com/user-attachments/assets/17cc8dff-c104-44e2-a313-f5ef029f816e)
