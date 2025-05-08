@@ -9,7 +9,7 @@ const Accordion = () => {
   return (
     <div>
         {
-            data.map((d,i)=><SingleAccord text = {d.text} detail = {d.detail} show={i==index} myindex={i} setIndex={setIndex}/>)
+            data.map((d,i)=><SingleAccord key={i} text = {d.text} detail = {d.detail} show={i==index} myindex={i} setIndex={setIndex}/>)
         }
     </div>
   )

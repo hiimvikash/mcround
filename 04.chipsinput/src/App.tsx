@@ -25,7 +25,7 @@ function App() {
         </form>
         <div className="chips">
           {
-            chips.map((text, index)=><SingleChip text={text} handleRemove = {()=>{setChips((prev:any)=>prev.filter((t:string,i:number)=> i!=index))}}/>)
+            chips.map((text, index)=><SingleChip key={index} text={text} handleRemove = {()=>{setChips((prev:any)=>prev.filter((t:string,i:number)=> i!=index))}}/>)
           }
         </div>
       </div>
