@@ -1,0 +1,86 @@
+body, :root{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  /* border : 1px solid black; */
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.livecomment-box{
+  width : 400px;
+  height: 600px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  box-shadow: 5px 5px 19px rgb(141, 139, 139) ;
+}
+.loadingcomments{
+  height: 90%;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+}
+
+.commentinput{
+  /* background-color: rgb(201, 208, 208); */
+  /* border : 1px solid rgb(214, 206, 206); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:10%;
+  box-shadow: 5px 5px 19px rgb(141, 139, 139) ;
+  border-radius: 20px;
+}
+input{
+  border : none;
+  outline: none;
+  background-color: rgb(255, 255, 255) ;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border-bottom: 1px solid gray;
+}
+button {
+  border : none;
+  outline: none;
+  background-color: rgb(255, 255, 255) ;
+  padding: 12px;
+  /* font-size: large; */
+  margin-left: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 5px 5px 19px rgb(141, 139, 139) ;
+}
+
+.singlecomment{
+  border-radius: 6px;
+  border-top: 1px solid black;
+  display: flex;
+  column-gap: 10px;
+  /* justify-content: center; */
+  padding-left: 10px;
+}
+
+.userinfo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* border: 1px solid yellow; */
+}
+.singlecomment img{
+  width: 24px;
+  height: 24px;
+}
+
