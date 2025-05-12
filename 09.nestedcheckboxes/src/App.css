@@ -1,0 +1,32 @@
+.main{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  border: 1px solid black;
+  width: 90vw;
+  min-height: 95vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.checkboxes-container > .parent-container{
+  margin-top: 10px;
+  /* border : 2px solid red; */
+}
+.parent-container{
+  /* border:1px solid rgb(16, 51, 225); */
+  padding-left: 18px;
+  border-left: 1px solid black;
+}
+
+.children-container >  .parent-container{
+  /* border : 1px solid red; */
+  margin-top: 7px;
+
+}
